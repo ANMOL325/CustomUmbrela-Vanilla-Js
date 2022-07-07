@@ -1,0 +1,191 @@
+body{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ImgContainer{
+    border: 1px solid black;
+    width: 32vw;
+}
+
+.ImgDiv{
+    background-image: url("./PICTURE/Blue umbrella.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.Logo{
+    position: relative;
+    top: 70%;
+    left: 42%;
+    color: red;
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 30px;
+    color: rgb(167, 167, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.BtnDiv{
+    position: relative;
+    bottom: 10px;
+    /* background-color: yellow; */
+}
+.Controller{
+    position: relative;
+    bottom: 300px;
+    /* border: 1px solid black; */
+    width: 50vw;
+    float: right;
+    /* margin-bottom: 100px; */
+    text-align: center;
+}
+.ColorChange1{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(235, 235, 0);
+    margin-right: 10px;
+    border-bottom: 2.2px solid black;
+    cursor: pointer;
+}
+
+.ColorChange2{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 148, 166);
+    margin-right: 10px;
+    border-bottom: 2.2px solid black;
+    cursor: pointer;
+}
+
+.ColorChange3{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    margin-right: 10px;
+    border-bottom: 2.2px solid black;
+    cursor: pointer;
+}
+.ColorChange1:hover{
+    background-color: rgb(255, 255, 186);
+}
+.ColorChange2:hover{
+    background-color: rgb(255, 210, 218);
+}
+.ColorChange3:hover{
+    background-color: rgb(179, 179, 255);
+}
+
+@media all and (max-width:801px) {
+    .ImgDiv{
+        margin-top: 120px;
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .Controller{
+        position: relative;
+        bottom: 270px;
+    }
+ }
+
+ @media all and (max-width:600px) {
+
+    .ImgDiv{
+        position: relative;
+        bottom: 100px;
+        left: 20vw;
+        /* margin-top: 170px; */
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .Controller{
+        position: relative;
+        top: -100px;
+        left: 25vw;
+        /* bottom: 100px; */
+        float: left;
+    }
+
+ }
+
+ @media all and (max-width:450px) {
+    .Controller{
+        position: relative;
+        top: -100px;
+        left: 29vw;
+        /* bottom: 100px; */
+        float: left;
+    }
+
+ }
+
+ @media all and (max-width:450px) { 
+    .ImgDiv{
+        position: relative;
+        bottom: 100px;
+        left: 13vw;
+        /* margin-top: 170px; */
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+ }
+
+ @media all and (max-width:350px) {
+    .Controller{
+        position: relative;
+        top: -100px;
+        left: 40vw;
+        /* bottom: 100px; */
+        float: left;
+    }
+    .ImgDiv{
+        position: relative;
+        bottom: 100px;
+        left: 15vw;
+        /* margin-top: 170px; */
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    
+ }
+
+ @media all and (max-width:283px) {
+    .Controller{
+        position: relative;
+        top: 40px;
+        left: 48vw;
+        /* bottom: 100px; */
+        float: left;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
