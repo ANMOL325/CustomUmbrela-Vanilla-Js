@@ -21,7 +21,7 @@ console.log(PinkButton);
 console.log(BlueButton);
 
 YellowButton.addEventListener("click", (e) => {
-    UmbrellaColor = "url(http://127.0.0.1:5502/PICTURE/Yellow%20umbrella.png)";
+    UmbrellaColor = `url("./PICTURE/Yellow umbrella.png")` ;
     // window.getComputedStyle(ImgDiv[0]).backgroundImage = UmbrellaColor;
     console.log(ImgDiv[0].style.backgroundImage = UmbrellaColor)
     // console.log(UmbrellaColor);
@@ -30,13 +30,13 @@ YellowButton.addEventListener("click", (e) => {
 }, false);
 
 PinkButton.addEventListener("click", (e) => {
-    UmbrellaColor = "url(http://127.0.0.1:5502/PICTURE/Pink%20umbrella.png)";
+    UmbrellaColor = `url("./PICTURE/Pink umbrella.png")`;
     ImgDiv[0].style.backgroundImage = UmbrellaColor;
     Body[0].style.backgroundColor = "rgb(255, 235, 245)";
 }, false);
 
 BlueButton.addEventListener("click", (e) => {
-    UmbrellaColor = "url(http://127.0.0.1:5502/PICTURE/Blue%20umbrella.png)";
+    UmbrellaColor = `url("./PICTURE/Blue umbrella.png")`;
     ImgDiv[0].style.backgroundImage = UmbrellaColor;
     Body[0].style.backgroundColor = "aqua"
 }, false);
